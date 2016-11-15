@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.contenedor{
+    width:95%;
+    max-width: 1000px;
+    margin:auto;
+}
+.contenedor p {
+    margin:40px; 
+}
+header nav{
+    background:#827717 ;
+    margin-bottom: 10px;
+}
+header nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li a{
+    display: block;
+    padding:20px;
+    color:#fff;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    background: #000;
+}
+.menu-fixed{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    max-width: 1000px;
+    box-shadow: 0px 4px 3px rgba(0,0,0,.5);
+}
+.menu-fixed ul li a{
+    padding: 15px 20px;
+}
+body{
+    background: #f2f2f2;
+}
+.main{
+    width: 90%;
+    height: 400px;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.slides{
+    width: 100%;
+}
+.slides img {
+    width: 100%;
+}
+.slidesjs-pagination{
+    background: #424242;
+    list-style: none;
+    overflow: hidden;
+}
+.slidesjs-pagination li {
+    float: left;
+}
+.slidesjs-pagination li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.slidesjs-pagination li a:hover {
+    background: #000
+}
+.slides .active{
+    background: #000;
+}
+.slidesjs-nagination{
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    float: right;
+}
+
+p{
+    width: 380px;
+    height: 350px;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 10px;
+
+}
+div#dimen{
+    margin: auto;
+    margin-top:none;
+    width: 1000px;
+    height: 330px;
+    background-color: #e6ee9c;
+}
+div#art{
+    float: right;
+    width: 480px;
+    height: 330px;
+    background-color: #d4e157;
+}
+div#art img{
+    float: right;
+    width: 460px;
+    height: 300px;
+    
+}
+div#art2{
+    width: 490px;
+    height: 330px;
+    background-color: #d4e157;
+}
+.social{
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+.social ul{
+    list-style: noce;
+}
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.social ul li .icon-facebook {background: #3b5998;}
+.social ul li .icon-whatsapp {background: #43a047;}
+.social ul li .icon-instagram {background: #827717;}
+.social ul li .icon-googleplus {background: #f44336;}
+.social ul li .icon-twitter {background: #64b5f6;}
+.social ul li .icon-youtube {background: #bf360c;}
+
+.social ul li a:hover{
+    padding: 10px 30px;
+    background: #000;
+}
+div#textt{
+    margin: auto;
+    margin-top:20px;
+    width: 1000px;
+    height: 400px;
+    background-color: #fff;
+}
+div#textt1{
+    
+    width: 250px;
+    height: 400px;
+    background-color: #7cb342;
+    display: inline-block;
+}
+div#textt1 h2 {
+    color: #fff;
+    margin: auto;
+    margin-top:20px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+div#textt1 p {
+    float:none;
+    width: 250px;
+    height: 400px;
+    font-family: "helvetica";
+
+}
+
+div#textt2{
+    float:none;
+    width: 250px;
+    height: 400px;
+    background-color: #7cb342;
+    display: inline-block;
+
+}
+div#textt2 h2 {
+    color: #fff;
+    margin: auto;
+    margin-top:20px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+div#textt2 p {
+    float:none;
+    width: 250px;
+    height: 400px;
+    font-family: "helvetica";
+
+}
+
+div#textt3{
+    float:none;
+    width: 250px;
+    height: 400px;
+    background-color: #7cb342;
+    display: inline-block;
+}
+div#textt3 h2 {
+    color: #fff;
+    margin: 0 10px;
+    margin-top:20px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+div#textt3 p {
+    float:none;
+    width: 250px;
+    height: 400px;
+    font-family: "helvetica";
+
+}
+div#textt4{
+    
+    width: 220px;
+    height: 400px;
+    background-color: #7cb342;
+    display: inline-block;
+}
+div#textt4 h2 {
+    color: #fff;
+    margin: auto;
+    margin-top:20px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+div#textt4 p {
+    float:none;
+    width: 220px;
+    height: 400px;
+    font-family: "helvetica";
+}
+
+.formu{
+    width:95%;
+    max-width: 1000px;
+    margin:auto;
+}
+.guardar{
+    color:#827717 ;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>CasaWaffle</title>
+  <link href="assets/img/casa-del-waffle-logo.ico"  type="image/x-icon" rel="shortcut icon"/>
+  <link rel="stylesheet" href="assets/stilos.css">
+  <link rel="stylesheet" href="fonts.css">
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="assets/main.js"></script>
+
+  <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	  <link type="text/css" rel="stylesheet" href="css/estilos.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    </head>
+
+    <body>
+   
+    <header>
+      <div class="contenedor">
+        <div class="logo">
+          <img src="assets/img/cdwlogo.png" width="160" height="155"/>
+      </div>
+      <nav class="menu">
+  <div >
+    <ul>
+      <li><a href="file:///C:/xampp/htdocs/Casa_Waffles/src/app/app.component.html">Inicio</a></li>
+      <li><a href="app.registro.html">Registro</a></li>
+      <li><a href="">Productos</a></li>
+      <li><a href="">Servicios</a></li>
+      <li><a href="">Acerca de </a></li>
+    </ul>
+  </div>
+</nav>
+      </div>
+    </header>
+<div class="formu">
+    <table width="200" border="1" align="center">
+	  <div class="row" class="valign-wrapper">
+    <form name="formulario" action="insertarPhp.php" method="POST" class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+          <input name="nombre" id="nombre" type="text" class="validate">
+          <label for="nombre">Nombre</label>
+        </div>
+        <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+          <input name="apellidos"id="apellidos" type="text" class="validate">
+          <label for="apellidos">Apellidos</label>
+        </div>
+      </div>
+	  <div class="row">
+        <div class="input-field col s6">
+            <i class="material-icons prefix">verified_user</i>
+          <input name="usuario"id="usuario" type="text""" class="validate">
+          <label for="usuario">Usuario</label>
+        </div>
+        <div class="input-field col s6">
+            <i class="material-icons prefix">mail</i>
+          <input name="email"id="email" type="text" class="validate">
+          <label for="email">Email</label>
+        </div>
+       </div>
+	   <label for="fenaci">Fecha de nacimiento</label>
+	   <div class="row">
+        <div class="input-field col s6">
+            <i class="material-icons prefix">perm_contact_calendar</i>
+        <input name="fenaci"id="fenaci" type="date" class="validate">  
+        </div>
+		
+		<div class="input-field col s6">
+            <i class="material-icons prefix">location_on</i>
+          <input name="direccion"id="direccion" type="text" class="validate">
+          <label for="direccion">Dirección</label>
+        </div>
+	   </div>
+	   <div class="row">
+	   <div class="input-field col s6">
+           <i class="material-icons prefix">phone</i>
+          <input name="telefono"id="telefono" type="text" class="validate">
+          <label for="telefono">Teléfono</label>
+        </div>
+	   </div>
+	   
+       <div class="guardar">
+          <input class="waves-effect waves-light btn" type="submit" value="Guardar" id="guardar" />
+       </div>
+	  
+	 
+
+</div>
+ 
+
+  <div class="social">
+       <ul>
+	     <li><a href="http://www.facebook.com" target="_blank" class="icon-facebook"></a></li>
+		 <li><a href="http://www.whatsapp.com" target="_blank" class="icon-whatsapp"></a></li>
+		 <li><a href="http://www.instagram.com" target="_blank" class="icon-instagram"></a></li>
+		 <li><a href="http://www.googleplus.com" target="_blank" class="icon-google-plus3"></a></li>
+		 <li><a href="http://www.twitter.com" target="_blank" class="icon-twitter"></a></li>
+		 <li><a href="http://www.youtube.com" target="_blank" class="icon-youtube"></a></li>
+	   </ul>
+  </div>
+
+
+
+  </body>
+</html>
